@@ -69,6 +69,7 @@ export const TestQuestion = ({
           <Box sx={{ my: 1 }}>
             <TextField
               id="answer"
+              type={question.category === "numerical" ? "number" : "text"}
               fullWidth
               value={answer}
               onChange={(e) => setAnswer(e.target.value)}

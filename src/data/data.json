@@ -662,7 +662,7 @@
         "id": 521,
         "question": "1000, 865, ?, 595, 460, 325",
         "question_line2": "What number should replace the question mark?",
-        "answer": "",
+        "answer": "730",
         "hasFigure": false,
         "figureSize": "",
         "type": "text",
