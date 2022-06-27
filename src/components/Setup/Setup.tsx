@@ -21,7 +21,7 @@ const tiers = [
     price: "0",
     description: [
       "10 questions",
-      "10 minutes",
+      "15 minutes",
       "Least Accurate",
       "Basic Report",
     ],
@@ -34,7 +34,7 @@ const tiers = [
     price: "0.99",
     description: [
       "20 questions",
-      "20 minutes",
+      "30 minutes",
       "Likely Accurate",
       "Basic Report",
     ],
@@ -45,7 +45,7 @@ const tiers = [
   {
     title: "Complete",
     price: "2.99",
-    description: ["40 questions", "40 minutes", "Most Accurate", "Full Report"],
+    description: ["40 questions", "60 minutes", "Most Accurate", "Full Report"],
 
     buttonText: "Get started",
     buttonVariant: "outlined",
