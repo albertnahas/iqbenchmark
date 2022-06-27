@@ -175,7 +175,7 @@ export const Results = ({
                 </Grid>
                 <Grid sx={{ textAlign: "center" }} item xs={2}>
                   <Typography color="primary.main" variant="body2">
-                    {detail.category.toUpperCase() || "OTHER"}
+                    {detail.category.toUpperCase() || "GENERAL"}
                   </Typography>
                 </Grid>
                 <Grid sx={{ textAlign: "center" }} item xs={2}>

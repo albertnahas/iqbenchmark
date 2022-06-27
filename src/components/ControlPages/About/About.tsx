@@ -1,6 +1,6 @@
 import React, { useEffect } from "react"
 import { Box, styled } from "@mui/system"
-import { ControlLink, ControlHeading1 } from "../ControlPage"
+import { ControlHeading1 } from "../ControlPage"
 import { useAnalytics } from "../../../hooks/useAnalytics"
 
 export var SubmitLink = styled("a")(

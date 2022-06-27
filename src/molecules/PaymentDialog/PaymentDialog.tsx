@@ -51,7 +51,7 @@ export function PaymentDialog(props: PaymentDialogProps) {
           },
         ],
       })
-    } catch (error) {
+    } catch (error: any) {
       setError(error)
     }
 
@@ -102,7 +102,7 @@ export function PaymentDialog(props: PaymentDialogProps) {
 
   return (
     <Dialog
-      onClose={() => handleClose(payed)}
+      onClose={handleClose}
       aria-label={"payment"}
       open={open}
       fullWidth

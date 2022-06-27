@@ -1,8 +1,7 @@
 /* eslint-disable no-mixed-operators */
-import _ from "lodash"
 // import { MedalType } from "../icons/Medal/Medal"
 
-const wikipediaURL =
+export const wikipediaURL =
   "https://en.wikipedia.org/w/api.php?format=json&action=query&origin=*&prop=extracts&exintro&explaintext&redirects=1&titles="
 
 const avatarURL = "https://avatars.dicebear.com/api/identicon/"
