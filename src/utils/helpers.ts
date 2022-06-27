@@ -59,7 +59,7 @@ export const getEval = (result: number) => {
     case result < 145:
       return "very gifted or highly advanced"
     default:
-      return "way to go"
+      return "exceptionally gifted or genius"
   }
 }
 
