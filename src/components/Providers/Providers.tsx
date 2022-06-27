@@ -78,7 +78,7 @@ export const Providers: FC<Props> = ({ children }) => {
         <ThemeProvider theme={theme}>
           <ConfirmProvider>
             <PayPalScriptProvider
-              options={{ "client-id": paypalClientId.sandbox }}
+              options={{ "client-id": paypalClientId.live }}
             >
               <Provider store={store}>
                 <IntlProvider locale={"en"} defaultLocale="en">
