@@ -1,7 +1,15 @@
 import { useEffect, useState } from "react"
 import DialogTitle from "@mui/material/DialogTitle"
 import Dialog from "@mui/material/Dialog"
-import { Container, Typography, Grid, Stack } from "@mui/material"
+import {
+  Container,
+  Typography,
+  Grid,
+  Stack,
+  Button,
+  TextField,
+  InputAdornment,
+} from "@mui/material"
 import { PayPalButtons } from "@paypal/react-paypal-js"
 import { DoneOutline } from "../../icons/DoneOutline"
 import { useTheme } from "@mui/system"
@@ -10,6 +18,9 @@ import { useSelector } from "react-redux"
 import { useAnalytics } from "../../hooks/useAnalytics"
 import { userSelector } from "../../store/userSlice"
 import { useUser } from "../../hooks/useUser"
+import { useFormik } from "formik"
+import * as Yup from "yup"
+import LocalOfferIcon from "@mui/icons-material/LocalOffer"
 
 export interface PaymentDialogProps {
   open: boolean
@@ -20,6 +31,7 @@ export interface PaymentDialogProps {
 export function PaymentDialog(props: PaymentDialogProps) {
   const theme = useTheme()
   const { onClose, open } = props
+  const [showPromo, setShowPromo] = useState(false)
   const [payed, setPayed] = useState(false)
   const [error, setError] = useState()
   const user = useSelector(userSelector)
@@ -86,6 +98,24 @@ export function PaymentDialog(props: PaymentDialogProps) {
     })
   }
 
+  const formik = useFormik({
+    initialValues: {
+      code: "",
+    },
+    validationSchema: Yup.object({
+      code: Yup.string().max(100).min(3).required("promo code is required"),
+    }),
+    onSubmit: (values, { resetForm, setErrors, setSubmitting }) => {
+      if (values.code === "20FREE") {
+        setPayed(true)
+        setSubmitting(false)
+      } else {
+        setErrors({ code: "invalid promo code" })
+        setSubmitting(false)
+      }
+    },
+  })
+
   useEffect(() => {
     if (payed) {
       setTimeout(() => {
@@ -138,6 +168,42 @@ export function PaymentDialog(props: PaymentDialogProps) {
                 style={{ layout: "horizontal" }}
               />
             </Grid>
+            <Button sx={{ mb: 2 }} onClick={() => setShowPromo(true)}>
+              I have a promo code
+            </Button>
+            {showPromo && (
+              <form onSubmit={formik.handleSubmit}>
+                <TextField
+                  error={Boolean(formik.touched.code && formik.errors.code)}
+                  helperText={formik.touched.code && formik.errors.code}
+                  fullWidth
+                  label="Code"
+                  margin="normal"
+                  name="code"
+                  aria-label="code"
+                  onBlur={formik.handleBlur}
+                  onChange={formik.handleChange}
+                  value={formik.values.code}
+                  variant="outlined"
+                  type="text"
+                  InputProps={{
+                    startAdornment: (
+                      <InputAdornment position="start">
+                        <LocalOfferIcon />
+                      </InputAdornment>
+                    ),
+                  }}
+                />
+                <Button
+                  type="submit"
+                  aria-label="google pay"
+                  variant="outlined"
+                  sx={{ my: 2 }}
+                >
+                  Apply Code
+                </Button>
+              </form>
+            )}
           </>
         )}
         {!!payed && (

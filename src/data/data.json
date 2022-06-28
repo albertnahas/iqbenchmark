@@ -669,5 +669,60 @@
         "shapesCount": null,
         "category": "numerical",
         "choices": []
+    },
+    {
+        "id": 530,
+        "question": "What number should replace the question mark?",
+        "question_line2": "",
+        "answer": "",
+        "hasFigure": true,
+        "figureSize": "large",
+        "type": "text",
+        "shapesCount": null,
+        "category": "numerical",
+        "choices": [
+            ". 6"
+        ]
+    },
+    {
+        "id": 606,
+        "question": " In a game of eight players lasting for 70 minutes, six substitutes alternate with\neach player. This means that all players, including the substitutes, are on the\npitch for the same length of time. For how long?",
+        "question_line2": "",
+        "answer": "40",
+        "hasFigure": false,
+        "figureSize": "",
+        "type": "text",
+        "shapesCount": null,
+        "category": "numerical",
+        "choices": []
+    },
+    {
+        "id": 608,
+        "question": "Which three of the four pieces below can be fitted together to form a perfect square?",
+        "question_line2": "",
+        "answer": "B,C,D",
+        "hasFigure": true,
+        "figureSize": "large",
+        "type": "choices",
+        "shapesCount": null,
+        "category": "spatial",
+        "choices": [
+            "A,B,C",
+            "A,B,D",
+            "A,C,D",
+            "B,C,D"
+        ]
+    },
+    {
+        "id": 612,
+        "question": "Which is the missing tile?",
+        "question_line2": "",
+        "answer": "D",
+        "hasFigure": true,
+        "figureSize": "large",
+        "type": "shapes",
+        "shapesCount": null,
+        "category": "reasoning",
+        "choices": []
     }
 ]
