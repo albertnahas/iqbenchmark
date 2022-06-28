@@ -49,13 +49,13 @@ export const getEval = (result: number) => {
     case result < 80:
       return "low average"
     case result < 90:
-      return "average"
+      return "low average"
     case result < 110:
-      return "high average"
+      return "average"
     case result < 120:
-      return "superior"
+      return "high average"
     case result < 130:
-      return "gifted or very advanced"
+      return "superior"
     case result < 145:
       return "very gifted or highly advanced"
     default:
