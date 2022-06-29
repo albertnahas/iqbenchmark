@@ -42,7 +42,7 @@ export const Main = () => {
         count = 10
         break
       case "Rapid":
-        count = 11
+        count = 20
         break
       case "Complete":
         count = 40

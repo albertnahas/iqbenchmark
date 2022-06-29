@@ -20,6 +20,14 @@
   fill: #094b8c;
 }
 
+.logo-light-1 {
+  fill: #3498da;
+}
+
+.logo-light-2 {
+  fill: #fff;
+}
+
 #orbit {
   transform-origin: center;
 }

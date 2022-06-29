@@ -71,6 +71,9 @@ export var Landing: FC<Props> = function (props) {
           mt: 3,
           color: "primary.main",
           background: "#fff",
+          "&:hover": {
+            color: "#fff",
+          },
         }}
         aria-label="get started"
         variant="contained"
