@@ -22,15 +22,17 @@ export var Landing: FC<Props> = function (props) {
       sx={{
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
+        backgroundPosition: "right",
+        justifyContent: "center",
         flexGrow: 1,
         textAlign: "center",
         width: "100%",
         display: "flex",
-        justifyContent: "flex-start",
         alignItems: "center",
         flexDirection: "column",
+        height: "calc(100vh - 65px)",
         backgroundImage: `url('/assets/${
-          theme.palette.mode === "dark" ? "particles" : "particles"
+          theme.palette.mode === "dark" ? "bg" : "bg"
         }.svg') !important`,
       }}
     >
@@ -38,10 +40,12 @@ export var Landing: FC<Props> = function (props) {
         <Logo sx={{ fontSize: "10em" }} />
       </BrainWrapper>
       <Typography
-        sx={{ fontWeight: "400", fontSize: { md: "4em", xs: "3em" } }}
+        sx={{
+          fontWeight: "400",
+          fontSize: { md: "4em", xs: "3em", color: "#fff" },
+        }}
         variant="h1"
         aria-label="IQBenchmark"
-        color="primary.light"
       >
         IQBenchmark
       </Typography>
@@ -50,7 +54,7 @@ export var Landing: FC<Props> = function (props) {
           m: 2,
           fontSize: "18px",
           fontWeight: 400,
-          px: { xs: "2.5rem", md: 0 },
+          px: { xs: "2.5rem", md: 0, color: "#eee" },
         }}
         variant="h2"
         color="text.primary"
@@ -65,6 +69,8 @@ export var Landing: FC<Props> = function (props) {
         sx={{
           width: 200,
           mt: 3,
+          color: "primary.main",
+          background: "#fff",
         }}
         aria-label="get started"
         variant="contained"
