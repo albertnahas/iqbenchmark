@@ -674,15 +674,13 @@
         "id": 530,
         "question": "What number should replace the question mark?",
         "question_line2": "",
-        "answer": "",
+        "answer": "6",
         "hasFigure": true,
         "figureSize": "large",
         "type": "text",
         "shapesCount": null,
         "category": "numerical",
-        "choices": [
-            ". 6"
-        ]
+        "choices": []
     },
     {
         "id": 606,

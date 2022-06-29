@@ -49,7 +49,10 @@ export const Main = () => {
         break
     }
 
-    const sampleQuestions = _.sampleSize(_.cloneDeep(questions), count)
+    const sampleQuestions = _.sampleSize(
+      _.cloneDeep(questions.filter((q) => q.category !== "verbal")),
+      count
+    )
     setTestQuestions(_.shuffle(sampleQuestions))
   }
 
