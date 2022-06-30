@@ -1,7 +1,7 @@
 import { Button, Container } from "@mui/material"
 import _ from "lodash"
 import { useEffect, useState } from "react"
-import { useSelector } from "react-redux"
+import { useDispatch, useSelector } from "react-redux"
 import questions from "../../data/data.json"
 import { useScores } from "../../hooks/useScore"
 import { useUser } from "../../hooks/useUser"
@@ -14,6 +14,7 @@ import firebase from "../../config"
 import { Test } from "../Test/Test"
 import { PaymentDialog } from "../../molecules/PaymentDialog/PaymentDialog"
 import { getTestPrice } from "../../utils/helpers"
+import { setFeedback } from "../../store/feedbackSlice"
 
 export const Main = () => {
   const [testQuestions, setTestQuestions] = useState<Question[]>()
@@ -27,6 +28,7 @@ export const Main = () => {
       score: number
     }[]
   >()
+  const dispatch = useDispatch()
 
   const [openPayment, setOpenPayment] = useState(false)
 
@@ -92,6 +94,11 @@ export const Main = () => {
       setOpenPayment(true)
     } else {
       setFinish(true)
+      if (!user?.feedback) {
+        setTimeout(() => {
+          dispatch(setFeedback(true))
+        }, 3500)
+      }
     }
   }
 
