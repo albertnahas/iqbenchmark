@@ -3,6 +3,9 @@
 
 export const wikipediaURL =
   "https://en.wikipedia.org/w/api.php?format=json&action=query&origin=*&prop=extracts&exintro&explaintext&redirects=1&titles="
+export const wikipediaThumbnailURL =
+  "https://en.wikipedia.org/w/api.php?action=query&origin=*&format=json&formatversion=2&prop=pageimages|pageterms&piprop=thumbnail&pithumbsize=600&titles="
+export const celebsAPI = "https://api.api-ninjas.com/v1/celebrity?name="
 
 const avatarURL = "https://avatars.dicebear.com/api/identicon/"
 
@@ -22,6 +25,17 @@ export const getAvatarURL = () => {
 //     { medal: "purple", message: "You are a polyglot!!", color: "primary" },
 //     { medal: "gold", message: "You are unstoppable!!!", color: "success" },
 //   ]
+
+export const getCelebPhoto = (name?: string) => {
+  return fetch(wikipediaThumbnailURL + encodeURIComponent(name || ""), {
+    method: "GET",
+  })
+}
+export const getCelebInfo = (name?: string) => {
+  return fetch(celebsAPI + encodeURIComponent(name || ""), {
+    method: "GET",
+  })
+}
 
 export const getTestPrice = (questions: number) => {
   switch (questions) {

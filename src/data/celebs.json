@@ -1,0 +1,1417 @@
+[
+  {
+    "First Name": "Brendan",
+    "Last Name": "Dassey",
+    "score": 70
+  },
+  {
+    "First Name": "Bar",
+    "Last Name": "Rafaeli",
+    "score": 70
+  },
+  {
+    "First Name": "David",
+    "Last Name": "Hasselhoff",
+    "score": 73
+  },
+  {
+    "First Name": "Muhammad",
+    "Last Name": "Ali",
+    "score": 78
+  },
+  {
+    "First Name": "Chris",
+    "Last Name": "Brown",
+    "score": 85
+  },
+  {
+    "First Name": "Tori",
+    "Last Name": "Spelling",
+    "score": 85
+  },
+  {
+    "First Name": "Andy",
+    "Last Name": "Warhol",
+    "score": 86
+  },
+  {
+    "First Name": "Andy",
+    "Last Name": "Warhol",
+    "score": 86
+  },
+  {
+    "First Name": "Donovan",
+    "Last Name": "McNabb",
+    "score": 88
+  },
+  {
+    "First Name": "OJ",
+    "Last Name": "Simpson",
+    "score": 89
+  },
+  {
+    "First Name": "Tito",
+    "Last Name": "Ortiz",
+    "score": 90
+  },
+  {
+    "First Name": "Tila",
+    "Last Name": "Tequila",
+    "score": 90
+  },
+  {
+    "First Name": "Dan",
+    "Last Name": "Marino",
+    "score": 92
+  },
+  {
+    "First Name": "Tom",
+    "Last Name": "Cruise",
+    "score": 94
+  },
+  {
+    "First Name": "Mariah",
+    "Last Name": "Carey",
+    "score": 95
+  },
+  {
+    "First Name": "Kourtney",
+    "Last Name": "Kardashian",
+    "score": 95
+  },
+  {
+    "First Name": "Kourtney",
+    "Last Name": "Kardashian",
+    "score": 95
+  },
+  {
+    "First Name": "Mike",
+    "Last Name": "Anderson",
+    "score": 96
+  },
+  {
+    "First Name": "Lil",
+    "Last Name": "Wayne",
+    "score": 96
+  },
+  {
+    "First Name": "Vanessa",
+    "Last Name": "Hudgens",
+    "score": 99
+  },
+  {
+    "First Name": "Howard",
+    "Last Name": "Stern",
+    "score": 99
+  },
+  {
+    "First Name": "Nicki",
+    "Last Name": "Minaj",
+    "score": 100
+  },
+  {
+    "First Name": "Adam",
+    "Last Name": "Sandler",
+    "score": 100
+  },
+  {
+    "First Name": "Britney",
+    "Last Name": "Spears",
+    "score": 100
+  },
+  {
+    "First Name": "Shaquille",
+    "Last Name": "O'Neil",
+    "score": 101
+  },
+  {
+    "First Name": "Brett",
+    "Last Name": "Favre",
+    "score": 104
+  },
+  {
+    "First Name": "Brett",
+    "Last Name": "Favre",
+    "score": 104
+  },
+  {
+    "First Name": "Tim",
+    "Last Name": "Tebow",
+    "score": 104
+  },
+  {
+    "First Name": "Janeane",
+    "Last Name": "Garofalo",
+    "score": 105
+  },
+  {
+    "First Name": "Ariana",
+    "Last Name": "Grande",
+    "score": 105
+  },
+  {
+    "First Name": "Ronald",
+    "Last Name": "Reagan",
+    "score": 105
+  },
+  {
+    "First Name": "Ronald",
+    "Last Name": "Regan",
+    "score": 105
+  },
+  {
+    "First Name": "Mike",
+    "Last Name": "Tyson",
+    "score": 105
+  },
+  {
+    "First Name": "Mike",
+    "Last Name": "Tyson",
+    "score": 105
+  },
+  {
+    "First Name": "Charles",
+    "Last Name": "Manson",
+    "score": 109
+  },
+  {
+    "First Name": "Al",
+    "Last Name": "Franken",
+    "score": 110
+  },
+  {
+    "First Name": "Jay",
+    "Last Name": "Leno",
+    "score": 110
+  },
+  {
+    "First Name": "Jay",
+    "Last Name": "Leno",
+    "score": 110
+  },
+  {
+    "First Name": "Al",
+    "Last Name": "Pacino",
+    "score": 110
+  },
+  {
+    "First Name": "Al",
+    "Last Name": "Pacino",
+    "score": 110
+  },
+  {
+    "First Name": "Ben",
+    "Last Name": "Roethlisberger",
+    "score": 110
+  },
+  {
+    "First Name": "Seth",
+    "Last Name": "Rogan",
+    "score": 110
+  },
+  {
+    "First Name": "Seth",
+    "Last Name": "Rogen",
+    "score": 110
+  },
+  {
+    "First Name": "Jay",
+    "Last Name": "Cutler",
+    "score": 112
+  },
+  {
+    "First Name": "Kobe",
+    "Last Name": "Bryant",
+    "score": 114
+  },
+  {
+    "First Name": "Michelle",
+    "Last Name": "Obama",
+    "score": 115
+  },
+  {
+    "First Name": "Katy",
+    "Last Name": "Perry",
+    "score": 115
+  },
+  {
+    "First Name": "Brad",
+    "Last Name": "Pitt",
+    "score": 115
+  },
+  {
+    "First Name": "Brad",
+    "Last Name": "Pitt",
+    "score": 115
+  },
+  {
+    "First Name": "Will",
+    "Last Name": "Smith",
+    "score": 115
+  },
+  {
+    "First Name": "Kanye",
+    "Last Name": "West",
+    "score": 115
+  },
+  {
+    "First Name": "Drew",
+    "Last Name": "Brees",
+    "score": 116
+  },
+  {
+    "First Name": "Peyton",
+    "Last Name": "Manning",
+    "score": 116
+  },
+  {
+    "First Name": "Francis Ford",
+    "Last Name": "Coppola",
+    "score": 117
+  },
+  {
+    "First Name": "Francis",
+    "Last Name": "Ford Coppola",
+    "score": 117
+  },
+  {
+    "First Name": "Gene",
+    "Last Name": "Simmons",
+    "score": 117
+  },
+  {
+    "First Name": "Troy",
+    "Last Name": "Aikman",
+    "score": 118
+  },
+  {
+    "First Name": "David",
+    "Last Name": "Berkowitz",
+    "score": 118
+  },
+  {
+    "First Name": "John Wayne",
+    "Last Name": "Gacy",
+    "score": 118
+  },
+  {
+    "First Name": "Lee Harvey",
+    "Last Name": "Oswald",
+    "score": 118
+  },
+  {
+    "First Name": "George",
+    "Last Name": "Washington",
+    "score": 118
+  },
+  {
+    "First Name": "John F.",
+    "Last Name": "Kennedy",
+    "score": 119
+  },
+  {
+    "First Name": "John F.",
+    "Last Name": "Kennedy",
+    "score": 119
+  },
+  {
+    "First Name": "Bernie",
+    "Last Name": "Sanders",
+    "score": 119
+  },
+  {
+    "First Name": "Tyra",
+    "Last Name": "Banks",
+    "score": 120
+  },
+  {
+    "First Name": "Jordana",
+    "Last Name": "Brewster",
+    "score": 120
+  },
+  {
+    "First Name": "Miley",
+    "Last Name": "Cyrus",
+    "score": 120
+  },
+  {
+    "First Name": "Miley",
+    "Last Name": "Cyrus",
+    "score": 120
+  },
+  {
+    "First Name": "John",
+    "Last Name": "Elway",
+    "score": 120
+  },
+  {
+    "First Name": "Paris",
+    "Last Name": "Hilton",
+    "score": 120
+  },
+  {
+    "First Name": "Ron",
+    "Last Name": "Jeremy",
+    "score": 120
+  },
+  {
+    "First Name": "Angelina",
+    "Last Name": "Jolie",
+    "score": 120
+  },
+  {
+    "First Name": "Jennifer",
+    "Last Name": "Lawrence",
+    "score": 120
+  },
+  {
+    "First Name": "Jennifer",
+    "Last Name": "Lawrence",
+    "score": 120
+  },
+  {
+    "First Name": "David",
+    "Last Name": "Letterman",
+    "score": 120
+  },
+  {
+    "First Name": "David",
+    "Last Name": "Letterman",
+    "score": 120
+  },
+  {
+    "First Name": "Sarah",
+    "Last Name": "Palin",
+    "score": 120
+  },
+  {
+    "First Name": "Philip",
+    "Last Name": "Rivers",
+    "score": 120
+  },
+  {
+    "First Name": "Jennifer",
+    "Last Name": "Tilly",
+    "score": 120
+  },
+  {
+    "First Name": "Gerald",
+    "Last Name": "Ford",
+    "score": 121
+  },
+  {
+    "First Name": "Gerald",
+    "Last Name": "Ford",
+    "score": 121
+  },
+  {
+    "First Name": "Courteney",
+    "Last Name": "Cox",
+    "score": 122
+  },
+  {
+    "First Name": "Dwight D.",
+    "Last Name": "Eisenhower",
+    "score": 122
+  },
+  {
+    "First Name": "Anderson",
+    "Last Name": "Cooper",
+    "score": 123
+  },
+  {
+    "First Name": "John",
+    "Last Name": "Kerry",
+    "score": 123
+  },
+  {
+    "First Name": "John",
+    "Last Name": "Kerry",
+    "score": 123
+  },
+  {
+    "First Name": "Ted",
+    "Last Name": "Bundy",
+    "score": 124
+  },
+  {
+    "First Name": "George W.",
+    "Last Name": "Bush",
+    "score": 124
+  },
+  {
+    "First Name": "Famke",
+    "Last Name": "Janssen",
+    "score": 124
+  },
+  {
+    "First Name": "George",
+    "Last Name": "W. Bush",
+    "score": 124
+  },
+  {
+    "First Name": "Tom",
+    "Last Name": "Cruise",
+    "score": 125
+  },
+  {
+    "First Name": "Chris",
+    "Last Name": "Pratt",
+    "score": 125
+  },
+  {
+    "First Name": "Mira",
+    "Last Name": "Sorvino",
+    "score": 125
+  },
+  {
+    "First Name": "Eddie",
+    "Last Name": "Van Halen",
+    "score": 125
+  },
+  {
+    "First Name": "Tom",
+    "Last Name": "Brady",
+    "score": 126
+  },
+  {
+    "First Name": "Lyndon B.",
+    "Last Name": "Johnson",
+    "score": 126
+  },
+  {
+    "First Name": "Steve",
+    "Last Name": "Young",
+    "score": 126
+  },
+  {
+    "First Name": "Vladimir",
+    "Last Name": "Putin",
+    "score": 127
+  },
+  {
+    "First Name": "Angela",
+    "Last Name": "Bassett",
+    "score": 130
+  },
+  {
+    "First Name": "Jordana",
+    "Last Name": "Brewster",
+    "score": 130
+  },
+  {
+    "First Name": "George H.W.",
+    "Last Name": "Bush",
+    "score": 130
+  },
+  {
+    "First Name": "James",
+    "Last Name": "Franco",
+    "score": 130
+  },
+  {
+    "First Name": "James",
+    "Last Name": "Franco",
+    "score": 130
+  },
+  {
+    "First Name": "George",
+    "Last Name": "H.W. Bush",
+    "score": 130
+  },
+  {
+    "First Name": "Goldie",
+    "Last Name": "Hawn",
+    "score": 130
+  },
+  {
+    "First Name": "Ken",
+    "Last Name": "Jeong",
+    "score": 130
+  },
+  {
+    "First Name": "Ken",
+    "Last Name": "Jeong",
+    "score": 130
+  },
+  {
+    "First Name": "Aaron",
+    "Last Name": "Rodgers",
+    "score": 130
+  },
+  {
+    "First Name": "Jodie",
+    "Last Name": "Foster",
+    "score": 132
+  },
+  {
+    "First Name": "Jodie",
+    "Last Name": "Foster",
+    "score": 132
+  },
+  {
+    "First Name": "Nicole",
+    "Last Name": "Kidman",
+    "score": 132
+  },
+  {
+    "First Name": "Nicole",
+    "Last Name": "Kidman",
+    "score": 132
+  },
+  {
+    "First Name": "Arnold",
+    "Last Name": "Schwarzenegger",
+    "score": 132
+  },
+  {
+    "First Name": "Harry S.",
+    "Last Name": "Truman",
+    "score": 132
+  },
+  {
+    "First Name": "Harry",
+    "Last Name": "Truman",
+    "score": 132
+  },
+  {
+    "First Name": "Megyn",
+    "Last Name": "Kelly",
+    "score": 133
+  },
+  {
+    "First Name": "Drew",
+    "Last Name": "Bledso",
+    "score": 134
+  },
+  {
+    "First Name": "Al",
+    "Last Name": "Gore",
+    "score": 134
+  },
+  {
+    "First Name": "Edward",
+    "Last Name": "Norton",
+    "score": 134
+  },
+  {
+    "First Name": "Spiro",
+    "Last Name": "Agnew",
+    "score": 135
+  },
+  {
+    "First Name": "Tommy Lee",
+    "Last Name": "Jones",
+    "score": 135
+  },
+  {
+    "First Name": "Tommy Lee",
+    "Last Name": "Jones",
+    "score": 135
+  },
+  {
+    "First Name": "Dennis",
+    "Last Name": "Miller",
+    "score": 135
+  },
+  {
+    "First Name": "Dennis",
+    "Last Name": "Miller",
+    "score": 135
+  },
+  {
+    "First Name": "Julie",
+    "Last Name": "Newman",
+    "score": 135
+  },
+  {
+    "First Name": "Julie",
+    "Last Name": "Newmar",
+    "score": 135
+  },
+  {
+    "First Name": "Arnold",
+    "Last Name": "Schwarzenegger",
+    "score": 135
+  },
+  {
+    "First Name": "Oprah",
+    "Last Name": "Winfrey",
+    "score": 136
+  },
+  {
+    "First Name": "Bill",
+    "Last Name": "Clinton",
+    "score": 137
+  },
+  {
+    "First Name": "Bobby",
+    "Last Name": "Darin",
+    "score": 137
+  },
+  {
+    "First Name": "Rush",
+    "Last Name": "Limbaugh",
+    "score": 137
+  },
+  {
+    "First Name": "Kevin",
+    "Last Name": "Spacey",
+    "score": 137
+  },
+  {
+    "First Name": "Kevin",
+    "Last Name": "Spacey",
+    "score": 137
+  },
+  {
+    "First Name": "Brian",
+    "Last Name": "Griese",
+    "score": 138
+  },
+  {
+    "First Name": "Eli",
+    "Last Name": "Manning",
+    "score": 138
+  },
+  {
+    "First Name": "Emma",
+    "Last Name": "Watson",
+    "score": 138
+  },
+  {
+    "First Name": "Emma",
+    "Last Name": "Watson",
+    "score": 138
+  },
+  {
+    "First Name": "Jean",
+    "Last Name": "Auel",
+    "score": 140
+  },
+  {
+    "First Name": "Madonna",
+    "Last Name": "Ciccone",
+    "score": 140
+  },
+  {
+    "First Name": "Madonna",
+    "Last Name": "Ciccone",
+    "score": 140
+  },
+  {
+    "First Name": "Hillary",
+    "Last Name": "Clinton",
+    "score": 140
+  },
+  {
+    "First Name": "Hillary",
+    "Last Name": "Clinton",
+    "score": 140
+  },
+  {
+    "First Name": "Bobby",
+    "Last Name": "Czyz",
+    "score": 140
+  },
+  {
+    "First Name": "Claire",
+    "Last Name": "Danes",
+    "score": 140
+  },
+  {
+    "First Name": "Geena",
+    "Last Name": "Davis",
+    "score": 140
+  },
+  {
+    "First Name": "Geena",
+    "Last Name": "Davis",
+    "score": 140
+  },
+  {
+    "First Name": "Anna",
+    "Last Name": "Faris",
+    "score": 140
+  },
+  {
+    "First Name": "Sasha",
+    "Last Name": "Grey",
+    "score": 140
+  },
+  {
+    "First Name": "Glenne",
+    "Last Name": "Headly",
+    "score": 140
+  },
+  {
+    "First Name": "Shakira",
+    "Last Name": "Isabel Mebarak Ripoll",
+    "score": 140
+  },
+  {
+    "First Name": "Natalie",
+    "Last Name": "Portman",
+    "score": 140
+  },
+  {
+    "First Name": "Natalie",
+    "Last Name": "Portman",
+    "score": 140
+  },
+  {
+    "First Name": "Shakira",
+    "Last Name": "Ripoll",
+    "score": 140
+  },
+  {
+    "First Name": "Kesha",
+    "Last Name": "Rose Sebert",
+    "score": 140
+  },
+  {
+    "First Name": "Kesha",
+    "Last Name": "Sebert",
+    "score": 140
+  },
+  {
+    "First Name": "Robin",
+    "Last Name": "Williams",
+    "score": 140
+  },
+  {
+    "First Name": "Robin",
+    "Last Name": "Williams",
+    "score": 140
+  },
+  {
+    "First Name": "Adolf",
+    "Last Name": "Hitler",
+    "score": 141
+  },
+  {
+    "First Name": "Steve",
+    "Last Name": "Martin",
+    "score": 142
+  },
+  {
+    "First Name": "Steve",
+    "Last Name": "Martin",
+    "score": 142
+  },
+  {
+    "First Name": "Jimmy",
+    "Last Name": "Johnson",
+    "score": 143
+  },
+  {
+    "First Name": "Scott",
+    "Last Name": "Levy",
+    "score": 143
+  },
+  {
+    "First Name": "Raven (Scott)",
+    "Last Name": "Levy",
+    "score": 143
+  },
+  {
+    "First Name": "Richard G.",
+    "Last Name": "Nixon",
+    "score": 143
+  },
+  {
+    "First Name": "Meryl",
+    "Last Name": "Streep",
+    "score": 143
+  },
+  {
+    "First Name": "Meryl",
+    "Last Name": "Streep",
+    "score": 143
+  },
+  {
+    "First Name": "Alex",
+    "Last Name": "Trebek",
+    "score": 143
+  },
+  {
+    "First Name": "Tony",
+    "Last Name": "Hawk",
+    "score": 144
+  },
+  {
+    "First Name": "Warren",
+    "Last Name": "Bufffet",
+    "score": 145
+  },
+  {
+    "First Name": "Jeffrey",
+    "Last Name": "Dahmer",
+    "score": 145
+  },
+  {
+    "First Name": "Thomas",
+    "Last Name": "Edison",
+    "score": 145
+  },
+  {
+    "First Name": "Barack",
+    "Last Name": "Obama",
+    "score": 145
+  },
+  {
+    "First Name": "Sasha",
+    "Last Name": "Obama",
+    "score": 146
+  },
+  {
+    "First Name": "Snoop",
+    "Last Name": "Dogg",
+    "score": 147
+  },
+  {
+    "First Name": "David",
+    "Last Name": "Duchovny",
+    "score": 147
+  },
+  {
+    "First Name": "David",
+    "Last Name": "Duchovny",
+    "score": 147
+  },
+  {
+    "First Name": "Jim",
+    "Last Name": "Morrison",
+    "score": 147
+  },
+  {
+    "First Name": "Jimmy",
+    "Last Name": "Morrison",
+    "score": 147
+  },
+  {
+    "First Name": "Franklin D.",
+    "Last Name": "Roosevelt",
+    "score": 147
+  },
+  {
+    "First Name": "Sharon",
+    "Last Name": "Stone",
+    "score": 148
+  },
+  {
+    "First Name": "Jimmy",
+    "Last Name": "Savile",
+    "score": 149
+  },
+  {
+    "First Name": "Mayim",
+    "Last Name": "Bialik",
+    "score": 150
+  },
+  {
+    "First Name": "Nolan",
+    "Last Name": "Gould",
+    "score": 150
+  },
+  {
+    "First Name": "Nolan",
+    "Last Name": "Gould",
+    "score": 150
+  },
+  {
+    "First Name": "Lupita",
+    "Last Name": "Nyong'o",
+    "score": 150
+  },
+  {
+    "First Name": "Bill",
+    "Last Name": "O'Reilly",
+    "score": 150
+  },
+  {
+    "First Name": "Bill",
+    "Last Name": "O'Reilly",
+    "score": 150
+  },
+  {
+    "First Name": "Neil",
+    "Last Name": "Peart",
+    "score": 150
+  },
+  {
+    "First Name": "Jerry",
+    "Last Name": "Springer",
+    "score": 150
+  },
+  {
+    "First Name": "Ben",
+    "Last Name": "Stein",
+    "score": 150
+  },
+  {
+    "First Name": "Bill",
+    "Last Name": "Stein",
+    "score": 150
+  },
+  {
+    "First Name": "Jessica",
+    "Last Name": "Alba",
+    "score": 151
+  },
+  {
+    "First Name": "Alan",
+    "Last Name": "Rachins",
+    "score": 152
+  },
+  {
+    "First Name": "Mark",
+    "Last Name": "Zuckerberg",
+    "score": 152
+  },
+  {
+    "First Name": "James Earl \"Jimmy\"",
+    "Last Name": "Carter",
+    "score": 153
+  },
+  {
+    "First Name": "Jimmy",
+    "Last Name": "Carter",
+    "score": 153
+  },
+  {
+    "First Name": "Colin",
+    "Last Name": "Firth",
+    "score": 153
+  },
+  {
+    "First Name": "Brendan",
+    "Last Name": "O'Carroll",
+    "score": 153
+  },
+  {
+    "First Name": "Nicky",
+    "Last Name": "Piper",
+    "score": 153
+  },
+  {
+    "First Name": "Cindy",
+    "Last Name": "Crawford",
+    "score": 154
+  },
+  {
+    "First Name": "Cindy",
+    "Last Name": "Crawford",
+    "score": 154
+  },
+  {
+    "First Name": "Michael",
+    "Last Name": "Jordan",
+    "score": 154
+  },
+  {
+    "First Name": "Alicia",
+    "Last Name": "Keys",
+    "score": 154
+  },
+  {
+    "First Name": "Alicia",
+    "Last Name": "Keys",
+    "score": 154
+  },
+  {
+    "First Name": "Lisa",
+    "Last Name": "Kudrow",
+    "score": 154
+  },
+  {
+    "First Name": "Lisa",
+    "Last Name": "Kudrow",
+    "score": 154
+  },
+  {
+    "First Name": "Danica",
+    "Last Name": "McKellar",
+    "score": 154
+  },
+  {
+    "First Name": "Sharon",
+    "Last Name": "Stone",
+    "score": 154
+  },
+  {
+    "First Name": "Carol",
+    "Last Name": "Vorderman",
+    "score": 154
+  },
+  {
+    "First Name": "Julie",
+    "Last Name": "Peterson",
+    "score": 155
+  },
+  {
+    "First Name": "Asia",
+    "Last Name": "Carrera",
+    "score": 156
+  },
+  {
+    "First Name": "Asia",
+    "Last Name": "Carrera",
+    "score": 156
+  },
+  {
+    "First Name": "Ellen",
+    "Last Name": "Muth",
+    "score": 156
+  },
+  {
+    "First Name": "Donald",
+    "Last Name": "Trump",
+    "score": 156
+  },
+  {
+    "First Name": "Donald",
+    "Last Name": "Trump",
+    "score": 156
+  },
+  {
+    "First Name": "Aisha",
+    "Last Name": "Tyler",
+    "score": 156
+  },
+  {
+    "First Name": "Laura",
+    "Last Name": "Shields",
+    "score": 158
+  },
+  {
+    "First Name": "Lisa",
+    "Last Name": "Simpson",
+    "score": 159
+  },
+  {
+    "First Name": "Clive",
+    "Last Name": "Sinclair",
+    "score": 159
+  },
+  {
+    "First Name": "Kate",
+    "Last Name": "Beckinsale",
+    "score": 160
+  },
+  {
+    "First Name": "Kate",
+    "Last Name": "Beckinsale",
+    "score": 160
+  },
+  {
+    "First Name": "Matt",
+    "Last Name": "Damon",
+    "score": 160
+  },
+  {
+    "First Name": "Matt",
+    "Last Name": "Damon",
+    "score": 160
+  },
+  {
+    "First Name": "Albert",
+    "Last Name": "Einstein",
+    "score": 160
+  },
+  {
+    "First Name": "Benjamin",
+    "Last Name": "Franklin",
+    "score": 160
+  },
+  {
+    "First Name": "Bill",
+    "Last Name": "Gates",
+    "score": 160
+  },
+  {
+    "First Name": "Stephen",
+    "Last Name": "Hawking",
+    "score": 160
+  },
+  {
+    "First Name": "Stephen",
+    "Last Name": "Hawking",
+    "score": 160
+  },
+  {
+    "First Name": "Dexter",
+    "Last Name": "Holland",
+    "score": 160
+  },
+  {
+    "First Name": "Reggie",
+    "Last Name": "Jackson",
+    "score": 160
+  },
+  {
+    "First Name": "Reggie",
+    "Last Name": "Jackson",
+    "score": 160
+  },
+  {
+    "First Name": "Thomas",
+    "Last Name": "Jefferson",
+    "score": 160
+  },
+  {
+    "First Name": "Steve",
+    "Last Name": "Jobs",
+    "score": 160
+  },
+  {
+    "First Name": "Ashton",
+    "Last Name": "Kutcher",
+    "score": 160
+  },
+  {
+    "First Name": "Ashton",
+    "Last Name": "Kutcher",
+    "score": 160
+  },
+  {
+    "First Name": "Dolph",
+    "Last Name": "Lundgren",
+    "score": 160
+  },
+  {
+    "First Name": "Dolph",
+    "Last Name": "Lundgren",
+    "score": 160
+  },
+  {
+    "First Name": "Conan",
+    "Last Name": "O.Brien",
+    "score": 160
+  },
+  {
+    "First Name": "Conan",
+    "Last Name": "O'Brien",
+    "score": 160
+  },
+  {
+    "First Name": "Christopher",
+    "Last Name": "Reeves",
+    "score": 160
+  },
+  {
+    "First Name": "Sylvester",
+    "Last Name": "Stallone",
+    "score": 160
+  },
+  {
+    "First Name": "Sylvester",
+    "Last Name": "Stallone",
+    "score": 160
+  },
+  {
+    "First Name": "Quentin",
+    "Last Name": "Tarantino",
+    "score": 160
+  },
+  {
+    "First Name": "Quentin",
+    "Last Name": "Tarantino",
+    "score": 160
+  },
+  {
+    "First Name": "Jola",
+    "Last Name": "Sigmond",
+    "score": 161
+  },
+  {
+    "First Name": "Jill",
+    "Last Name": "St. John",
+    "score": 162
+  },
+  {
+    "First Name": "Mayim",
+    "Last Name": "Bialik",
+    "score": 163
+  },
+  {
+    "First Name": "Kris",
+    "Last Name": "Kristofferson",
+    "score": 163
+  },
+  {
+    "First Name": "Jayne",
+    "Last Name": "Mansfield",
+    "score": 163
+  },
+  {
+    "First Name": "Ludwig Van",
+    "Last Name": "Beethoven",
+    "score": 165
+  },
+  {
+    "First Name": "Charles",
+    "Last Name": "Darwin",
+    "score": 165
+  },
+  {
+    "First Name": "Richard",
+    "Last Name": "Dawkins",
+    "score": 165
+  },
+  {
+    "First Name": "Myles",
+    "Last Name": "Jeffrey",
+    "score": 165
+  },
+  {
+    "First Name": "Johannes",
+    "Last Name": "Mozart",
+    "score": 165
+  },
+  {
+    "First Name": "Lady",
+    "Last Name": "Gaga",
+    "score": 166
+  },
+  {
+    "First Name": "Marilyn",
+    "Last Name": "Monroe",
+    "score": 168
+  },
+  {
+    "First Name": "Paul",
+    "Last Name": "Allen",
+    "score": 170
+  },
+  {
+    "First Name": "Donald",
+    "Last Name": "Byrne",
+    "score": 170
+  },
+  {
+    "First Name": "Dexter",
+    "Last Name": "Holland",
+    "score": 170
+  },
+  {
+    "First Name": "Judit",
+    "Last Name": "Polgar",
+    "score": 170
+  },
+  {
+    "First Name": "Norman",
+    "Last Name": "Schwarzkopf",
+    "score": 170
+  },
+  {
+    "First Name": "Andrew",
+    "Last Name": "Wiles",
+    "score": 170
+  },
+  {
+    "First Name": "Judy",
+    "Last Name": "Holliday",
+    "score": 172
+  },
+  {
+    "First Name": "Judy",
+    "Last Name": "Holliday",
+    "score": 172
+  },
+  {
+    "First Name": "Simon",
+    "Last Name": "Ambrose",
+    "score": 174
+  },
+  {
+    "First Name": "Rowan",
+    "Last Name": "Atkinson",
+    "score": 178
+  },
+  {
+    "First Name": "Charles",
+    "Last Name": "Dickens",
+    "score": 180
+  },
+  {
+    "First Name": "Bill",
+    "Last Name": "Gates",
+    "score": 180
+  },
+  {
+    "First Name": "Benjamin",
+    "Last Name": "Netanyahu",
+    "score": 180
+  },
+  {
+    "First Name": "John",
+    "Last Name": "Sununu",
+    "score": 180
+  },
+  {
+    "First Name": "James",
+    "Last Name": "Woods",
+    "score": 180
+  },
+  {
+    "First Name": "Masi",
+    "Last Name": "Oka",
+    "score": 189
+  },
+  {
+    "First Name": "Philip",
+    "Last Name": "Emeagwali",
+    "score": 190
+  },
+  {
+    "First Name": "Garry",
+    "Last Name": "Kasparov",
+    "score": 190
+  },
+  {
+    "First Name": "Isaac",
+    "Last Name": "Newton",
+    "score": 190
+  },
+  {
+    "First Name": "Richard G.",
+    "Last Name": "Rosner",
+    "score": 192
+  },
+  {
+    "First Name": "Garry",
+    "Last Name": "Kasparov",
+    "score": 194
+  },
+  {
+    "First Name": "Chris",
+    "Last Name": "Langan",
+    "score": 195
+  },
+  {
+    "First Name": "Nathan",
+    "Last Name": "Leopold",
+    "score": 210
+  },
+  {
+    "First Name": "Kim Ung",
+    "Last Name": "Yong",
+    "score": 210
+  },
+  {
+    "First Name": "Christopher",
+    "Last Name": "Hirata",
+    "score": 225
+  },
+  {
+    "First Name": "Marilyn",
+    "Last Name": "Vos Savant",
+    "score": 228
+  },
+  {
+    "First Name": "Terence",
+    "Last Name": "Tao",
+    "score": 230
+  }
+]
