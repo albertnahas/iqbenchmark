@@ -116,18 +116,6 @@
         "choices": []
     },
     {
-        "id": 111,
-        "question": "How many minutes is it before 12 noon, if 48 minutes ago it was twice as many minutes past 9 am? (number only)",
-        "question_line2": "",
-        "answer": "44",
-        "hasFigure": false,
-        "figureSize": "",
-        "type": "text",
-        "shapesCount": null,
-        "category": "numerical",
-        "choices": []
-    },
-    {
         "id": 113,
         "question": "Which is the odd one out?",
         "question_line2": "",

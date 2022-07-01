@@ -15,6 +15,7 @@ import { Test } from "../Test/Test"
 import { PaymentDialog } from "../../molecules/PaymentDialog/PaymentDialog"
 import { getTestPrice } from "../../utils/helpers"
 import { setFeedback } from "../../store/feedbackSlice"
+import { useAnalytics } from "../../hooks/useAnalytics"
 
 export const Main = () => {
   const [testQuestions, setTestQuestions] = useState<Question[]>()
@@ -28,6 +29,7 @@ export const Main = () => {
       score: number
     }[]
   >()
+  const { logEvent } = useAnalytics()
   const dispatch = useDispatch()
 
   const [openPayment, setOpenPayment] = useState(false)
@@ -55,6 +57,11 @@ export const Main = () => {
       _.cloneDeep(questions.filter((q) => q.category !== "verbal")),
       count
     )
+    logEvent("test_selected", {
+      test: item,
+      count: count,
+      questions: sampleQuestions.length,
+    })
     setTestQuestions(_.shuffle(sampleQuestions))
   }
 
