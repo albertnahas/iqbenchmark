@@ -18,10 +18,10 @@ import { setFeedback } from "../../store/feedbackSlice"
 
 export const Main = () => {
   const [testQuestions, setTestQuestions] = useState<Question[]>()
-  const [finish, setFinish] = useState(false)
+  const [finish, setFinish] = useState(true)
   const [started, setStarted] = useState(false)
   const [written, setWritten] = useState(false)
-  const [result, setResult] = useState(0)
+  const [result, setResult] = useState(138)
   const [details, setDetails] = useState<
     {
       category: string
@@ -138,13 +138,7 @@ export const Main = () => {
             onReady={() => setStarted(true)}
           />
         ))}
-      {finish && (
-        <Results
-          result={result}
-          details={details}
-          accuracy={(testQuestions?.length || 0) / 40}
-        />
-      )}
+      {finish && <Results result={result} details={details} accuracy={1} />}
       {!!result && !finish && (
         <Button onClick={onShowResults}>Show my results</Button>
       )}
