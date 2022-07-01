@@ -2,10 +2,7 @@ import { FC } from "react"
 import { Box, Button, Grid, Typography } from "@mui/material"
 import { styled } from "@mui/material/styles"
 import { useTheme } from "@mui/system"
-import { Logo } from "../../icons/logo"
-import { Background } from "../../icons/background"
 import { LogoLight } from "../../icons/logoLight"
-import { Results } from "../Results/Results"
 
 const BrainWrapper = styled(Box)`
   position: relative;
