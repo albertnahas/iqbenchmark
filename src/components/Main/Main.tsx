@@ -42,7 +42,7 @@ export const Main = () => {
   const onSelectTest = (item: string) => {
     let count = 0
     switch (item) {
-      case "Free":
+      case "Blitz":
         count = 10
         break
       case "Rapid":
@@ -97,15 +97,19 @@ export const Main = () => {
   }
 
   const onShowResults = () => {
-    if (testQuestions && testQuestions.length > 10) {
+    if (testQuestions && testQuestions.length > 0) {
       setOpenPayment(true)
     } else {
       setFinish(true)
-      if (!user?.feedback) {
-        setTimeout(() => {
-          dispatch(setFeedback(true))
-        }, 3500)
-      }
+      showFeedback()
+    }
+  }
+
+  const showFeedback = () => {
+    if (!user?.feedback) {
+      setTimeout(() => {
+        dispatch(setFeedback(true))
+      }, 3500)
     }
   }
 
@@ -129,6 +133,7 @@ export const Main = () => {
     setOpenPayment(false)
     if (payed) {
       setFinish(true)
+      showFeedback()
     }
   }
 

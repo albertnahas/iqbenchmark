@@ -173,7 +173,7 @@ export var Landing: FC<Props> = function (props) {
                 color="primary.light"
                 sx={{ fontSize: "2.2em", mb: 2 }}
               >
-                Check out where do you stand compared to others
+                Find out where do you stand compared to others
               </Typography>
               <Typography variant="body1" color="white">
                 By the current "deviation IQ" definition of IQ test standard

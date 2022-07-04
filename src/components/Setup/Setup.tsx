@@ -16,21 +16,21 @@ import { BrainFigure } from "../../atoms/BrainFigure/BrainFigure"
 
 const tiers = [
   {
-    title: "Free",
-    price: "0",
+    title: "Blitz",
+    price: "0.99",
     description: [
       "10 questions",
       "15 minutes",
       "Least Accurate",
       "Basic Report",
     ],
-    buttonText: "Start for Free",
+    buttonText: "Get Started",
     buttonVariant: "outlined",
   },
   {
     title: "Rapid",
     subheader: "Most popular",
-    price: "0.99",
+    price: "1.99",
     description: [
       "20 questions",
       "30 minutes",

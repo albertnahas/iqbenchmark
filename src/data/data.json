@@ -416,18 +416,6 @@
         "choices": []
     },
     {
-        "id": 233,
-        "question": "You have 59 cubic blocks. What is the minimum number that needs to be taken away in order to construct a solid cube with none left over?",
-        "question_line2": "",
-        "answer": "32",
-        "hasFigure": false,
-        "figureSize": "",
-        "type": "text",
-        "shapesCount": null,
-        "category": "numerical",
-        "choices": []
-    },
-    {
         "id": 237,
         "question": "Which is the missing section?",
         "question_line2": "",
@@ -665,18 +653,6 @@
         "answer": "6",
         "hasFigure": true,
         "figureSize": "large",
-        "type": "text",
-        "shapesCount": null,
-        "category": "numerical",
-        "choices": []
-    },
-    {
-        "id": 606,
-        "question": " In a game of eight players lasting for 70 minutes, six substitutes alternate with\neach player. This means that all players, including the substitutes, are on the\npitch for the same length of time. For how long?",
-        "question_line2": "",
-        "answer": "40",
-        "hasFigure": false,
-        "figureSize": "",
         "type": "text",
         "shapesCount": null,
         "category": "numerical",

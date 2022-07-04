@@ -40,9 +40,9 @@ export const getCelebInfo = (name?: string) => {
 export const getTestPrice = (questions: number) => {
   switch (questions) {
     case 10:
-      return 0
-    case 11:
       return 0.99
+    case 11:
+      return 1.99
     case 20:
       return 0.99
     case 40:

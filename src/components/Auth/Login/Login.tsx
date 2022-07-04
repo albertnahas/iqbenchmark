@@ -81,25 +81,47 @@ export var Login: FC<Props> = function (props) {
       aria-label="login container"
     >
       <Container maxWidth="sm">
-        <form onSubmit={formik.handleSubmit}>
-          <Box sx={{ my: 3 }}>
-            <Typography
-              color="textPrimary"
-              variant="h1"
-              sx={{ fontSize: "2.1rem", fontWeight: 400 }}
+        <Box sx={{ mb: 1 }}>
+          <Typography
+            color="textPrimary"
+            variant="h1"
+            sx={{ fontSize: "2.1rem", fontWeight: 400 }}
+          >
+            Sign in
+          </Typography>
+          <Typography color="textSecondary" gutterBottom variant="body2">
+            Sign in and get started
+          </Typography>
+          {props.error && (
+            <Typography color="error.main" gutterBottom variant="body2">
+              {props.error}
+            </Typography>
+          )}
+        </Box>
+        <form onSubmit={guestFormik.handleSubmit}>
+          <Box sx={{ py: 2 }}>
+            <Button
+              color="primary"
+              disabled={guestFormik.isSubmitting || props.loading}
+              fullWidth
+              aria-label="guest"
+              size="large"
+              variant="outlined"
+              type="submit"
             >
-              Sign in
-            </Typography>
-            <Typography color="textSecondary" gutterBottom variant="body2">
-              Sign in and get started
-            </Typography>
-            {props.error && (
-              <Typography color="error.main" gutterBottom variant="body2">
-                {props.error}
-              </Typography>
-            )}
+              Start as guest
+            </Button>
           </Box>
-          <Grid container spacing={3}>
+          <Divider />
+
+          <Box sx={{ pb: 1 }}>
+            <Typography align="center" color="textSecondary" variant="body1">
+              or
+            </Typography>
+          </Box>
+        </form>
+        <form onSubmit={formik.handleSubmit}>
+          <Grid container spacing={2}>
             <Grid item xs={12} md={6}>
               <Button
                 color="info"
@@ -128,7 +150,7 @@ export var Login: FC<Props> = function (props) {
           <Box
             sx={{
               pb: 1,
-              pt: 3,
+              pt: 2,
             }}
           >
             <Typography align="center" color="textSecondary" variant="body1">
@@ -161,7 +183,7 @@ export var Login: FC<Props> = function (props) {
             value={formik.values.password}
             variant="outlined"
           />
-          <Box sx={{ py: 2 }}>
+          <Box sx={{ py: 1 }}>
             {!props.loading ? (
               <Button
                 color="primary"
@@ -203,27 +225,6 @@ export var Login: FC<Props> = function (props) {
               </Typography>
             </Grid>
           </Grid>
-        </form>
-        <Divider />
-        <form onSubmit={guestFormik.handleSubmit}>
-          <Box sx={{ py: 1 }}>
-            <Typography align="center" color="textSecondary" variant="body1">
-              or
-            </Typography>
-          </Box>
-          <Box sx={{ py: 2 }}>
-            <Button
-              color="primary"
-              disabled={guestFormik.isSubmitting || props.loading}
-              fullWidth
-              aria-label="guest"
-              size="large"
-              variant="outlined"
-              type="submit"
-            >
-              Continue as guest
-            </Button>
-          </Box>
         </form>
       </Container>
     </Box>

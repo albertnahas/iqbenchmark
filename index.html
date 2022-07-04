@@ -113,6 +113,7 @@
     <!-- Begin Inspectlet Asynchronous Code -->
     <script type="text/javascript">
       ;(function () {
+        if (window.location.hostname === "localhost") return
         window.__insp = window.__insp || []
         __insp.push(["wid", 617083818])
         var ldinsp = function () {
