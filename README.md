@@ -1,4 +1,4 @@
 # iqbenchmark
 
 Try online:
-iqbenchmark.netlify.app
+[https://iqbenchmark.netlify.app](https://iqbenchmark.netlify.app)
